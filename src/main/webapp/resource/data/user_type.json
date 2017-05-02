@@ -1,0 +1,13 @@
+[{
+  "id":"employee",
+  "text":"普通用户"
+},{
+  "id":"manager",
+  "text":"部门经理"
+},{
+  "id":"HR",
+  "text":"人事用户"
+},{
+  "id":"systemadmin",
+  "text":"系统管理员"
+}]

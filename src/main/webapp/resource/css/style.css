@@ -1,0 +1,239 @@
+.header{
+}
+.header .logo{
+	display: block;
+	background-image: url(../image/logo.gif);
+	background-repeat: no-repeat;
+	background-position: 20px;
+	float: left;
+	margin-top: 5px;
+	padding-left: 100px;
+}
+.header .logo h1{
+	color: #056CAE;
+	cursor: default;
+	padding-top: 10px;
+	padding-left: 80px;
+	font-size: 28px;
+}
+.header .logo h1 span{
+    padding-left: -35px;
+	color: #1A91E3;
+    font-size: 15px;
+}
+
+.header .topNav {
+	display: block;
+	float: right;
+	margin-top: 14px;
+	overflow: hidden;
+}
+
+.header .topNav .topMenu{
+	float: left;
+	margin-top: 3%;
+}
+
+.header .topNav .topMenu li{
+	position: relative;
+	display: inline;
+}
+
+.header .topNav .topMenu li a{
+	overflow: hidden;
+	padding-right: 25px;
+}
+
+.header .topNav .topMenu li a img{
+	width: 50px;
+	height: 50px;
+	background-color: #E2EAF5;
+	border-radius: 25px;
+}
+
+.header .topNav .topMenu li a img:hover{
+	background-color: #CEE0F6;
+}
+
+.header .topNav .line{
+	display: block;
+	float: left;
+	background-color: #E0ECFF;
+	margin-top: 10px;
+	height: 63px;
+	width: 2px;
+}
+
+.header .topNav .user_info{
+	float: left;
+	margin-top: 11px;
+	padding-left: 25px;
+	padding-right: 50px;
+}
+.header .topNav .user_info .user_left .user_name{
+	cursor: default;
+	font-size: 18px;
+}
+.header .topNav .user_info .user_left .btn{
+	background-color: #E0ECFF;
+	display: block;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 5px 22px 5px 20px;
+}
+
+.header .topNav .user_info .user_left .btn a{
+	text-decoration: none;
+	color: #09233F;
+}
+
+.left{
+}
+
+.menu_iconCls{
+	background-image: url(../image/menu_logo.gif);
+}
+.menu_title{
+	height: 19px;
+	/*line-height: 20px !important;*/
+}
+
+.menu_title div{
+	font-size: 14px !important;;
+	line-height:20px !important;;
+}
+
+.left .navContent {
+	margin-top: 0px;
+	padding-left: 0px;
+}
+.left ul {
+	list-style-type:none;
+	display: block;
+}
+.left .navContent li a{
+	text-decoration: none;
+	height: 40px;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+	color: #333;
+	background-color: #E2EAF5;
+}
+.left .navContent li a:hover{
+	color: #000;
+/*	background-image:url("../image/point.gif");
+	background-repeat: no-repeat;
+	background-position:right;
+*/	background-color: #CEE0F6;
+}
+
+.main_body {
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.search_view {
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    width: 101.5%;
+}
+
+.search_view .search_form{
+    border: 1px solid #D4D4D4;
+    padding: 10px 20px;
+    z-index: 9;
+    margin: 5px 0px 0px 0px;
+}
+
+.search_view .search_form .search_table{
+
+ }
+
+.search_view .search_form .search_table td {
+    height: 40px;
+    line-height: 40px;
+    padding-right: 25px;
+}
+.search_view .search_form .search_table td:nth-last-child(1) {
+    padding-right: 1px;
+}
+
+.search_view .search_form .search_table .description_block{
+    display: block;
+    text-align: right;
+    font-weight:normal;
+}
+
+.search_view .search_form .search_table .description_inline {
+    display: inline;
+    text-align: right;
+    font-weight:normal;
+}
+
+.search_view .search_form .search_table .search_input {
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    background-color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    padding: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+    margin: 0;
+    white-space: normal;
+    vertical-align: middle;
+}
+
+
+.search_view .search_form .search_table .search_button {
+  margin-right: 25px;
+}
+
+
+.search_view .search_datagrid {
+    border: 1px solid #95B8E7;
+    padding: 10px 20px;
+    z-index: 9;
+    margin: 1px 1px 5px 1px;
+}
+
+.show_win{
+    display: none;
+    overflow-y:auto;
+    text-align:center;
+    vertical-align: middle;
+}
+.show_win .show_form{
+    text-align:center;
+    width:auto;
+    padding: 10px 30px
+}
+.show_win  .show_form .show_table{
+    height: auto;
+}
+
+.show_win  .show_form .show_table td{
+     height: 30px;
+     line-height: 40px;
+     text-align:right;
+ }
+
+.show_win  .show_form .show_table td input{
+   border-radius: 5px;
+}
+
+.show_win  .show_form .show_table td select{
+    width: 173px;
+}
+

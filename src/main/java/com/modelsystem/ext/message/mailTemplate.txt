@@ -1,0 +1,10 @@
+<div style="background-color:#f4e2ce;padding:10px 15px;font: 14px 'Microsoft Yahei', Tahoma, Arial, Helvetica, SimSun, sans-serif;letter-spacing: 0.3mm;line-height: 30px;color:#444">
+  <p>
+    <a href="${articleLink}" style="color:#E82667;text-decoration:none;" target="_blank">${articleTitle}</a>
+  </p>
+  <p>
+    <span style="color:#579599;padding-right:5px;">摘要:&nbsp;</span>
+    ${articleSummary}
+    <a href="${articleLink}" target="_blank">阅读全文</a>
+  </p>
+</div>

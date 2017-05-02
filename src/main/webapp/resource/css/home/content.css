@@ -1,0 +1,295 @@
+a, img {
+	border: 0;
+}
+
+body {
+	font: 12px/180% Arial, Helvetica, sans-serif, "宋体";
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3366cc;
+	text-decoration: underline;
+}
+
+div, ul, li, img {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+
+.shouye_main {
+	float: left;
+	height: 70%;
+	width: 75%;
+	background-color: #E0ECFF;
+}
+
+.shouye_main .all {
+	height: 80%;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding: 1%;
+	text-align: center;
+}
+
+.shouye_main .all li {
+	width: 14.65%;
+	height: 35%;
+	float: left;
+	margin: 1%;
+	cursor: pointer;
+	text-align: center;
+}
+
+.shouye_main .all li img {
+	width: 100%;
+	height: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	content: ".";
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.shouye_main .nav {
+	position: relative;
+	height: 38px;
+	overflow: hidden;
+	line-height: 38px;
+	font-size: 14px;
+	margin: 2% auto 0 15%;
+}
+
+.shouye_main .nav li {
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 39px;
+	line-height: 33px;
+	text-align: center;
+}
+
+.shouye_main .nav a {
+	text-decoration: none;
+}
+
+.shouye_main #navBd {
+	position: relative;
+}
+
+.shouye_main .navHover a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+.shouye_main #navSelected {
+	position: absolute;
+	top: 0;
+	width: 100px;
+	height: 39px;
+	line-height: 33px;
+	background: url(../../image/home/header.png) no-repeat 0 0;
+	no-repeat
+	0
+	0;
+}
+
+.shouye_right {
+	float: right;
+	height: 100%;
+	width: 24%;
+	background-color: #E0ECFF;
+}
+
+/*-------------------aside侧边栏--------------------------*/
+aside {
+	float: left;
+}
+
+aside h2{
+	font-size: 24px;
+	margin:10px auto auto auto;
+	text-align:center;
+	text-shadow: #000 1px 1px 1px;
+	color: #ECE80C;
+}
+
+.tuijian li{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 12px;
+
+}
+
+.tuijian li a:hover {
+	padding-left: 10px;
+}
+
+.tuijian li span:before {
+	content: "0";
+} /* 数字列表前面统一加0  */
+
+.tuijian li span {
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+.tuijian li:nth-child(-n+3) span {
+	width: 39px;
+} /* 选择从第3个开始倒数也就是第三个前面的 */
+
+.tuijian li:nth-child(-n+3) strong {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.tuijian li:first-child span {
+	color: #EE5F13;
+} /* 选择第一个 */
+.tuijian li:nth-child(n+3) {
+	line-height: 24px
+} /* 选择从第3个开始往后数 */
+.tuijian li:nth-child(4) {
+	margin: 5px 0 0 0
+} /* 选择第四个 */
+
+/* search */
+.searchform {
+	margin: 10px auto auto 10px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.searchform input {
+	background: rgba(0, 0, 0, 0.25) url(../../image/home/icons.png) no-repeat 3px
+		-318px;
+	border: 1px solid #CBCFD2;
+	width: 220px;
+	line-height: 30px;
+	padding-left: 30px;
+
+}
+
+.shouye_foot_left {
+	float: left;
+	height: 28%;
+	width: 37%;
+	background-color: #E0ECFF;
+	margin-top: 1%;
+	font: 12px/180% Arial, Helvetica, sans-serif, "宋体";
+}
+
+/* tabbtn */
+.tabbtn {
+	height: 30px;
+	background: url(../../image/home/tabbg.gif) repeat-x;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+}
+
+.tabbtn li {
+	float: left;
+	position: relative;
+	margin: 0 0 0 -1px;
+}
+
+.tabbtn li a {
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	width: 108px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.tabbtn li.current {
+	border-left: solid 1px #d5d5d5;
+	border-right: solid 1px #d5d5d5;
+	border-top: solid 1px #c5c5c5;
+}
+
+.tabbtn li.current a {
+	border-top: solid 2px #0CDFF6;
+	height: 27px;
+	line-height: 27px;
+	background: #fff;
+	color: #3366cc;
+	font-weight: 800;
+}
+/* tabcon */
+.tabcon {
+	border-width: 0 1px 1px 1px;
+	border-color: #ddd;
+	border-style: solid;
+	position: relative; /*必要元素*/
+	height: 130px;
+	overflow: hidden;
+}
+
+.tabcon .subbox {
+	position: absolute; /*必要元素*/
+	left: 0;
+	top: 0;
+}
+
+.tabcon .sublist {
+	padding: 5px 10px;
+	height: 150px;
+}
+/* leftcon */
+#leftcon .subbox {
+	width: 9999em;
+}
+
+#leftcon .subbox .sublist {
+	float: left;
+	width: 450px;
+}
+/* sublist */
+.sublist {
+	padding: 10px;
+}
+
+.sublist li {
+	height: 28px;
+	width: 450px;
+	line-height: 28px;
+	font-size: 12px;
+}
+
+.sublist li span {
+	margin: 0 5px 0 0;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: 400;
+	color: #ddd;
+}
+
+.shouye_foot_right {
+	float: left;
+	height: 28%;
+	width: 37%;
+	background-color: #E0ECFF;
+	margin-left: 1%;
+	margin-top: 1%;
+}
