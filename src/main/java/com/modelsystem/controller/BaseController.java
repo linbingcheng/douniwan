@@ -41,7 +41,7 @@ public class BaseController<T extends BaseModel> {
     private Logger log = Logger.getLogger(BaseController.class);
 
     @Autowired
-    protected BaseService<T> baseService;
+    public BaseService<T> baseService;
 
     // 添加保存数据
     @RequestMapping(value = "save.action")

@@ -37,7 +37,8 @@
 			<list>
 				<value>classpath:jdbc.properties</value>
 				<value>classpath:c3p0.properties</value>
-			</list>
+                <value>classpath:redis.properties</value>
+            </list>
 		</property>
 	</bean>
 	
