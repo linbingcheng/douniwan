@@ -12,6 +12,11 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by bingchenglin on 2017/5/3.
  */
+
+/**
+ * spring-data-redis虽然封装集成了redis客户端，但是不支持sharing
+ * 涉及分片的仍需自己实现
+ */
 @Component("redisUtil")
 public class RedisUtil {
 
