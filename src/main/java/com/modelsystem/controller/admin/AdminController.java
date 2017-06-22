@@ -39,7 +39,13 @@ public class AdminController{
 
 	@RequestMapping(value = "test.action")
 	public void test(HttpServletResponse response) throws IOException {
-
+        try {
+            System.out.println("处理开始时间:"+System.currentTimeMillis());
+            Thread.sleep(60000);
+            System.out.println("处理完成时间:"+System.currentTimeMillis());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         response.getWriter().print("bye");
 	}
 

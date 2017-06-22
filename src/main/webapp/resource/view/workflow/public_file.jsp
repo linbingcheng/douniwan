@@ -55,6 +55,8 @@ var dategrid_toolbar= [
     {iconCls: '', handler: function(){}},
     '-',
     {iconCls: 'icon-20130406125647919_easyicon_net_16',text:'上传', handler: function(e){openDivWindow('上传公共文件',380,180,'icon-20130406125647919_easyicon_net_16',add_buttons,'workflow_public_file');}},
+    '-',
+    {iconCls: 'icon-remove',text:'删除', handler: function(e){operateData(e,'delete','删除');}}
 ];
 var table_colums = [[
     {field:"file",title:"文件名",width:350,align:"center",hidden:false,checkbox:false,formatter:function(value,row,index){if(value){return value.substring(value.indexOf("upload")+7);}}},
